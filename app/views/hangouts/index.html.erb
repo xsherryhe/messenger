@@ -1,0 +1,17 @@
+<div>
+  <div id="message-display">
+    <%# render @messages %>
+  </div>
+  <div id="message-form">
+    <%= form_with model: @message, id: 'message-form' do |form| %>
+      <div class="field has-addons">
+        <div class="control">
+          <%= form.text_field :body, class: 'input', id: 'message-input' %>
+        </div>
+        <div class="control">
+          <%= form.submit 'Send Message', class: 'button is-primary' %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
