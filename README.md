@@ -1,3 +1,6 @@
+# Messenger
+
+## Introduction
 
 This project is a basic single-page messaging app with authentication. It is built using Ruby on Rails.
 
